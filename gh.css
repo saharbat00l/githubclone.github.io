@@ -1,0 +1,156 @@
+/*GENERAL-STYLE*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: "Helvetica";
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+}
+body{
+    width: 100vw;
+    background-color: #050824 ;
+    background-image: url(https://github.githubassets.com/images/modules/site/home/hero-glow.svg);
+    background-size: 170% auto;
+    background-repeat: no-repeat;
+    background-position: 50% 20% ;
+}
+
+/*NAVIGATION*/
+.nav-wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+   
+}
+nav svg{
+    fill: #ffffff;
+    margin-right: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    margin-right: 12px;
+
+}
+/*SEARCH*/
+.searchwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchwrapper div{
+margin-right: 15px;
+}
+
+.sign-up{
+border: 1px solid #fff;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 5px;
+border-radius: 5px;
+}
+.search input{
+    padding: 5px 7px 7px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(255,255,255,0.1);
+}
+.search input ::placeholder{
+    color: #D1D2D5;
+    font-size: 10px;
+}
+/*CONTENT*/
+.content-wrapper{
+    display: flex;
+padding: 0 80px;
+}
+.content{
+   display:flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 0 50px; 
+   
+}
+.content h1{
+    font-size: 58px;
+    line-height: 55px;
+    font-weight: 800;
+    letter-spacing: 0;
+    margin-bottom: 15px;
+}
+.content h4{
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #819382;
+    margin-bottom: 15px;
+}
+.content-wrapper img{
+    height: 700px;
+   
+ }
+ .form-wrapper{
+  display: flex;
+
+ }
+ .form-wrapper input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    width: 210px;
+    margin-right: 10px;
+ }
+ .green-signup{
+     background-color: #338558;
+border-radius: 5px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 150px;
+ }
+ /*STATS*/
+ .stats-wrapper{
+     padding: 0 80px;
+     margin-bottom: 50px ;
+ }
+ .stats{
+     display: flex;
+     border-top: 1px solid rgba(255,255,255,0.3) ;
+    padding-top: 20px;
+    margin-top: 40px;
+    }
+ .stat{
+     margin-right: 50px;
+ }
+ .stat h3 {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 2px;
+    font-family: "consolas";
+}
+.stat h4 {
+    font-size: 9px;
+    font-weight: 100;
+    margin-bottom: 2px; 
+    font-family: "Consolas";
+    opacity: 0.5;
+}
+/*ENTERPRISE SECTION*/
+.enterprise{
+height: 500px;
+background-color: #fff;
+margin-top: -5px;
+}
